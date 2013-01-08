@@ -18,7 +18,7 @@
 @import "tables";
 
 // Components: common
-@import "sprites";
+//@import "sprites"; replaced with Font Awesome
 @import "dropdowns";
 @import "wells";
 @import "component-animations";
@@ -48,6 +48,9 @@
 @import "accordion";
 @import "carousel";
 @import "hero-unit";
+
+// Font Awesome
+@import "font-awesome";
 
 // Utility classes
 @import "utilities"; // Has to be last to override when necessary
