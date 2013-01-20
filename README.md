@@ -62,24 +62,17 @@ If you're a designer who avoids the terminal/command line at all costs and has n
 
 4. Install the SASS gem.
 	
-	$ gem install sass
-
 Annnnnnd, you're done. Dont forget to watch your SASS if you want to make changes.
 
-
 5. Run 'bundle' and hit Enter.
-	
-	$ bundle
 
 6. Run 'jekyll' to make changes to the html.
-	
-	$ jekyll
 
 And I tink that's it. Enjoy.
 
 
 Side notes
-===========
+----------
 
 * Whatever flavour you're using make sure you losslessly compress all you images (unless you're using .svg). Check out [kraken](http://kraken.io/), probably the best online image compressin site it've used.
 
@@ -98,8 +91,8 @@ If you files are in a different directory you'll have to edit watch.sh according
 	sass --watch [where your scss file is].scss:[where you want your css to go].css --style compressed
 
 
-LISCENSE
-===========
+Liscense
+----------
 
 Color Me SASS is licensed under the [☺ license.](http://licence.visualidiot.com/)
 
@@ -113,8 +106,8 @@ The work is provided “as is”, without warranty or support, express or implie
 
 
 
-TODOS
-===========
+Todos
+-------
 
 * Add IE7 stylesheet for Font Awesome
 * Make screencast for Muffin
