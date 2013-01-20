@@ -111,3 +111,4 @@ Todos
 
 * Add IE7 stylesheet for Font Awesome
 * Make screencast for Muffin
+* SVGeezy on chocolate chip
