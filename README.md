@@ -110,5 +110,6 @@ The work is provided “as is”, without warranty or support, express or implie
 Todos
 -------
 
+* Congratulations message
 * Add IE7 stylesheet for Font Awesome
 * Make screencast for Muffin
