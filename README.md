@@ -45,6 +45,7 @@ Contains:
 * YUI compression for CSS and Javascript files
 * .htaccess file for caching and gzipping
 * SVG plugin for Jekyll
+* SVGeezy.js for svg fallback
 
 
 
@@ -111,4 +112,3 @@ Todos
 
 * Add IE7 stylesheet for Font Awesome
 * Make screencast for Muffin
-* SVGeezy on chocolate chip
