@@ -1,1 +1,119 @@
-//custom css goes here
+/*
+
+Contents
+================================
+
+1. Navigation
+2. Hero Section
+3. Flabours
+4. Page
+5. Footer
+6. Shared Styles
+	a. extends
+	b. fonts
+
+================================
+
+*/
+
+
+// 1. Navigation
+// --------------------------------------------------
+
+
+.n-logo{
+	
+	@include opacity(50);
+	img{
+		width:3em;	
+	}
+}
+
+
+.n-menu{
+	float:right;
+	list-style:none;
+	li{
+		display:inline-block;
+	}
+}
+
+@media (max-width: 46em) {
+
+.nav{
+	padding: 0 20px;	
+}
+
+}
+
+// 2. Hero Section
+// --------------------------------------------------
+
+.hero{
+	padding:5em 0;
+	border-bottom: 10px solid $pinkDark;
+}
+
+.h-title{
+	font-family: 'Stalemate';
+	font-size: 12em;
+	text-align: center;
+	@extend .white;
+	margin-bottom: 0.6em;
+	margin-top: 0.5em;
+}
+
+.h-slogan{
+	text-align:center;
+	@extend .white;
+	a{
+		@extend .white;
+		text-decoration:underline;
+	}
+}
+
+.h-button{
+	text-align:center;
+	a{
+		@extend .white;
+	}
+	
+}
+
+@media (max-width: 30em) {
+
+	.hero{
+		padding:4em 0;
+	}
+
+	.h-title{
+		font-size: 7em;
+		margin: 0.2em 0 0.6em 0;
+	}
+
+	.h-slogan{
+		font-size:1.1em;
+	}
+}
+
+// 6. Shared Styles
+// --------------------------------------------------
+
+body{
+	background-color: #fffcf5;
+}
+
+
+.white{
+	color: $white;
+}
+
+// 6.b Shared Styles
+// --------------------------------------------------
+
+@font-face {
+  font-family: 'Stalemate';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Stalemate'), local('Stalemate-Regular'), url(http://themes.googleusercontent.com/static/fonts/stalemate/v1/ILXfSNYxooD2TPt48NlaPz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
