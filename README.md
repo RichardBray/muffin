@@ -110,6 +110,7 @@ The work is provided “as is”, without warranty or support, express or implie
 Todos
 -------
 
-* Congratulations message
+* Remove unused REAMDE.md files
+* Content section for CSS
 * Add IE7 stylesheet for Font Awesome
 * Make screencast for Muffin

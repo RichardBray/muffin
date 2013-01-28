@@ -5,7 +5,7 @@ Contents
 
 1. Navigation
 2. Hero Section
-3. Flabours
+3. Flavours
 4. Page
 5. Footer
 6. Shared Styles
@@ -21,6 +21,10 @@ Contents
 // --------------------------------------------------
 
 
+.nav{
+	margin-top: 1em;
+}
+
 .n-logo{
 	
 	@include opacity(50);
@@ -33,16 +37,23 @@ Contents
 .n-menu{
 	float:right;
 	list-style:none;
+	margin-top: 1.2em;
+
 	li{
 		display:inline-block;
+		margin-left: 1.2em;
+	}
+
+	a{
+		color: $gray;
 	}
 }
 
 @media (max-width: 46em) {
 
-.nav{
-	padding: 0 20px;	
-}
+	.nav{
+		padding: 0 20px;	
+	}
 
 }
 
@@ -51,7 +62,7 @@ Contents
 
 .hero{
 	padding:5em 0;
-	border-bottom: 10px solid $pinkDark;
+	border-bottom: 10px solid desaturate($pinkRose, 20%);
 }
 
 .h-title{
@@ -65,6 +76,9 @@ Contents
 
 .h-slogan{
 	text-align:center;
+	font-size: 1.5em;
+	line-height: 1.5em;
+
 	@extend .white;
 	a{
 		@extend .white;
@@ -74,8 +88,20 @@ Contents
 
 .h-button{
 	text-align:center;
+	margin:2em 0 -1em 0;
+
 	a{
 		@extend .white;
+		padding: 0.5em 0.7em;
+		background-color: desaturate($pinkRose, 20%);
+		font-size: 1.4em;
+		@include transition(0.3s ease);
+
+		&:hover{
+			text-decoration: none;
+			color: desaturate($pinkRose, 20%);
+			background-color: $white;
+		}
 	}
 	
 }
@@ -96,6 +122,34 @@ Contents
 	}
 }
 
+
+// 3. Flavours
+// --------------------------------------------------
+
+.flavour{
+
+	text-align:center;
+
+}
+
+.flavour header{
+	font-size: 2em;
+	padding: 1.5em 0 0.7em 0;
+}
+
+.flavour span{
+	font-size: 1.1em;
+	color : $grayLight;
+}
+
+@media (max-width: 30em) {
+
+	.flavour{
+		padding: 0 20px;	
+	}
+
+}
+
 // 6. Shared Styles
 // --------------------------------------------------
 
@@ -103,12 +157,32 @@ body{
 	background-color: #fffcf5;
 }
 
+::-moz-selection {
+	color: #fff;
+	text-shadow: none;
+	background: #778da8;
+}
+
+::selection {
+	color: #fff;
+	text-shadow: none;
+	background: #778da8;
+}
+
+
+
+// 6.a Extends
+// --------------------------------------------------
+
 
 .white{
 	color: $white;
 }
 
-// 6.b Shared Styles
+
+
+
+// 6.b Fonts
 // --------------------------------------------------
 
 @font-face {
