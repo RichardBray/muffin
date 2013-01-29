@@ -126,18 +126,16 @@ Contents
 // 3. Flavours
 // --------------------------------------------------
 
-.flavour{
-
+.flavour, .features{
 	text-align:center;
-
 }
 
-.flavour header{
-	font-size: 2em;
+.head-text{
+	font-size: 2.5em;
 	padding: 1.5em 0 0.7em 0;
 }
 
-.flavour span{
+.sub-text{
 	font-size: 1.1em;
 	color : $grayLight;
 }
@@ -147,6 +145,11 @@ Contents
 	.flavour{
 		padding: 0 20px;	
 	}
+
+}
+
+
+.fl-list{
 
 }
 

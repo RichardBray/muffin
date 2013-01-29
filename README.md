@@ -69,7 +69,7 @@ Annnnnnd, you're done. Dont forget to watch your SASS if you want to make change
 
 6. Run 'jekyll' to make changes to the html.
 
-And I think that's it. Enjoy.
+And I tink that's it. Enjoy.
 
 
 Side notes
@@ -111,5 +111,6 @@ Todos
 -------
 
 * Remove unused REAMDE.md files
+* SASS media queries mixins
 * Content section for CSS
 * Make screencast for Muffin
