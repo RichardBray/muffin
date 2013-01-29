@@ -112,5 +112,4 @@ Todos
 
 * Remove unused REAMDE.md files
 * Content section for CSS
-* Add IE7 stylesheet for Font Awesome
 * Make screencast for Muffin
