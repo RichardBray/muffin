@@ -149,8 +149,32 @@ Contents
 }
 
 
-.fl-list{
+.fl-list header{
+	font-size: 1.6em;
+	margin-bottom: 1em;
+}
 
+.fl-list ul{
+	font-size: 1.1em;
+	list-style: none;
+	margin:0;
+
+	li{
+		margin-bottom: 0.5em;
+	}
+}
+
+.apple{
+	color: $greenApple;
+}
+
+
+.blueberry{
+	color: $blueSapphire;
+}
+
+.chocchip{
+	color: $brown;
 }
 
 // 6. Shared Styles
@@ -161,18 +185,31 @@ body{
 }
 
 ::-moz-selection {
-	color: #fff;
+	color: $white;
 	text-shadow: none;
-	background: #778da8;
+	background: $pinkHot;
 }
 
 ::selection {
-	color: #fff;
+	color: $white;
 	text-shadow: none;
-	background: #778da8;
+	background: $pinkHot;
 }
 
+.m-line{
+	margin-bottom: 4em;
 
+	hr{
+		border-top:1px solid $grayLight;
+	}
+
+	img{
+		margin-top: 2em;
+		margin-bottom: -2.9em;
+		background-color: #fffcf5;
+		padding: 0 1.5em;
+	}
+}
 
 // 6.a Extends
 // --------------------------------------------------
