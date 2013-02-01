@@ -157,10 +157,22 @@ Contents
 .fl-list ul{
 	font-size: 1.1em;
 	list-style: none;
-	margin:0;
+	margin:0 0 3em;
 
 	li{
 		margin-bottom: 0.5em;
+	}
+}
+
+.fl-dl{
+	background-color: $black;
+	padding: 0.4em 0.8em;
+	font-size: 1.2em;
+	color: $white;
+
+	&:hover{
+		color: $white;
+		text-decoration:none;
 	}
 }
 
