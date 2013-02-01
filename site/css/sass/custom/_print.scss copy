@@ -78,8 +78,6 @@ Contents
 	text-align:center;
 	font-size: 1.5em;
 	line-height: 1.5em;
-	font-weight: 100;
-	letter-spacing: 0.05em;
 
 	@extend .white;
 	a{
@@ -97,7 +95,7 @@ Contents
 		padding: 0.5em 0.7em;
 		background-color: desaturate($pinkRose, 20%);
 		font-size: 1.4em;
-		@extend .trans-three;
+		@include transition(0.3s ease);
 
 		&:hover{
 			text-decoration: none;
@@ -138,9 +136,8 @@ Contents
 }
 
 .sub-text{
-	font-size: 1.25em;
+	font-size: 1.1em;
 	color : $grayLight;
-	font-weight: 200;
 }
 
 @media (max-width: 30em) {
@@ -151,10 +148,6 @@ Contents
 
 }
 
-
-.fl-list{
-	margin-bottom: 5em;
-}
 
 .fl-list header{
 	font-size: 1.6em;
@@ -173,15 +166,13 @@ Contents
 
 .fl-dl{
 	background-color: $black;
-	padding: 0.6em 1.2em;
-	font-size: 1.3em;
+	padding: 0.4em 0.8em;
+	font-size: 1.2em;
 	color: $white;
-	@extend .trans-three;
 
 	&:hover{
 		color: $white;
 		text-decoration:none;
-		@include opacity(60);
 	}
 }
 
@@ -196,21 +187,6 @@ Contents
 
 .chocchip{
 	color: $brown;
-}
-
-.dl-apple{
-	background-color: $greenApple;
-	@extend .fl-dl;
-}
-
-.dl-bb{
-	background-color: $blueSapphire;
-	@extend .fl-dl;
-}
-
-.dl-cc{
-	background-color: $brown;
-	@extend .fl-dl;
 }
 
 // 6. Shared Styles
@@ -255,9 +231,6 @@ body{
 	color: $white;
 }
 
-.trans-three{
-	@include transition(0.3s ease);
-}
 
 // 6.b Fonts
 // --------------------------------------------------
