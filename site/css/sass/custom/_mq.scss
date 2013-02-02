@@ -1,243 +1,64 @@
-/*
-
-Contents
-================================
-
-1. Navigation
-2. Hero Section
-3. Flavours
-4. Page
-5. Footer
-6. Shared Styles
-	a. extends
-	b. fonts
-
-================================
-
-*/
+//
+// SASS Style media queries 
+// Source (http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32)
+// ---------------------------------------------------------------------------------------------------------
+//
 
 
-// 1. Navigation
-// --------------------------------------------------
+$screenSmallest: 20em; //320px
+$screenSmallest: 25em; //400px
+$screenSmall: 30em; //480px
+$screenMedsml: 35em; //560px
+$screenMed: 40em; //640px
+$screenMedbig: 45em; //720px
+$screenBig: 60em; //960px
+$screenBigger: 65em; //1040px
+$screenBiggest: 75em; //1200px
+$screenSuper: 100em; //1600px
 
 
-.nav{
-	margin-top: 1em;
+@mixin respond-to($media) {
+  @if $media == smallscr {
+    @media only screen and (max-width: $screenSmall) { @content; }
+  }
+  @else if $media == smallscr-medsml {
+    @media only screen and (min-width: $screenSmall + 1) and (max-width: $screenMedsml - 1) { @content; }
+  }
+  @else if $media == medscr {
+    @media only screen and (max-width: $screenMed) { @content; }
+  }
+  @else if $media == medbig {
+    @media only screen and (max-width: $screenBig) { @content; }
+  }  
+  @else if $media == medbig-bigscr {
+    @media only screen and (min-width: $screenMedbig + 1) and (max-width: $screenBig - 1) { @content; }
+  } 
+  @else if $media == bigscr {
+    @media only screen and (max-width: $screenBig) { @content; }
+  }   
 }
 
-.n-logo{
-	
-	@include opacity(50);
-	img{
-		width:3em;	
-	}
-}
-
-
-.n-menu{
-	float:right;
-	list-style:none;
-	margin-top: 1.2em;
-
-	li{
-		display:inline-block;
-		margin-left: 1.2em;
-	}
-
-	a{
-		color: $gray;
-	}
-}
-
-@media (max-width: 46em) {
-
-	.nav{
-		padding: 0 20px;	
-	}
-
-}
-
-// 2. Hero Section
-// --------------------------------------------------
-
-.hero{
-	padding:5em 0;
-	border-bottom: 10px solid desaturate($pinkRose, 20%);
-}
-
-.h-title{
-	font-family: 'Stalemate';
-	font-size: 12em;
-	text-align: center;
-	@extend .white;
-	margin-bottom: 0.6em;
-	margin-top: 0.5em;
-}
-
-.h-slogan{
-	text-align:center;
-	font-size: 1.5em;
-	line-height: 1.5em;
-
-	@extend .white;
-	a{
-		@extend .white;
-		text-decoration:underline;
-	}
-}
-
-.h-button{
-	text-align:center;
-	margin:2em 0 -1em 0;
-
-	a{
-		@extend .white;
-		padding: 0.5em 0.7em;
-		background-color: desaturate($pinkRose, 20%);
-		font-size: 1.4em;
-		@include transition(0.3s ease);
-
-		&:hover{
-			text-decoration: none;
-			color: desaturate($pinkRose, 20%);
-			background-color: $white;
-		}
-	}
-	
-}
-
-@media (max-width: 30em) {
-
-	.hero{
-		padding:4em 0;
-	}
-
-	.h-title{
-		font-size: 7em;
-		margin: 0.2em 0 0.6em 0;
-	}
-
-	.h-slogan{
-		font-size:1.1em;
-	}
-}
-
-
-// 3. Flavours
-// --------------------------------------------------
-
-.flavour, .features{
-	text-align:center;
-}
-
-.head-text{
-	font-size: 2.5em;
-	padding: 1.5em 0 0.7em 0;
-}
-
-.sub-text{
-	font-size: 1.1em;
-	color : $grayLight;
-}
-
-@media (max-width: 30em) {
-
-	.flavour{
-		padding: 0 20px;	
-	}
-
-}
-
-
-.fl-list header{
-	font-size: 1.6em;
-	margin-bottom: 1em;
-}
-
-.fl-list ul{
-	font-size: 1.1em;
-	list-style: none;
-	margin:0 0 3em;
-
-	li{
-		margin-bottom: 0.5em;
-	}
-}
-
-.fl-dl{
-	background-color: $black;
-	padding: 0.4em 0.8em;
-	font-size: 1.2em;
-	color: $white;
-
-	&:hover{
-		color: $white;
-		text-decoration:none;
-	}
-}
-
-.apple{
-	color: $greenApple;
-}
-
-
-.blueberry{
-	color: $blueSapphire;
-}
-
-.chocchip{
-	color: $brown;
-}
-
-// 6. Shared Styles
-// --------------------------------------------------
-
-body{
-	background-color: #fffcf5;
-}
-
-::-moz-selection {
-	color: $white;
-	text-shadow: none;
-	background: $pinkHot;
-}
-
-::selection {
-	color: $white;
-	text-shadow: none;
-	background: $pinkHot;
-}
-
-.m-line{
-	margin-bottom: 4em;
-
-	hr{
-		border-top:1px solid $grayLight;
-	}
-
-	img{
-		margin-top: 2em;
-		margin-bottom: -2.9em;
-		background-color: #fffcf5;
-		padding: 0 1.5em;
-	}
-}
-
-// 6.a Extends
-// --------------------------------------------------
-
-
-.white{
-	color: $white;
-}
-
-
-// 6.b Fonts
-// --------------------------------------------------
-
-@font-face {
-  font-family: 'Stalemate';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Stalemate'), local('Stalemate-Regular'), url(http://themes.googleusercontent.com/static/fonts/stalemate/v1/ILXfSNYxooD2TPt48NlaPz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-}
+// Example 1
+// ------------------
+//
+//.profile-pic {
+//  float: left;
+//  width: 250px;
+//  @include respond-to(smallscr) { width: 100% ;}
+//  @include respond-to(small-medsml) { width: 125px; }
+//  @include respond-to(medscr) { float: none; }
+//}
+//
+// Eample 2
+// -----------------
+//.profile-pic {
+//  float: left;
+//  width: 250px;
+//  @media screen and (max-width: $screenSmall) {
+//    width: 100px;
+//    float: none;
+//  }
+//  @media screen and (min-width: $screenBig) {
+//    float: right;
+//  }
+//}

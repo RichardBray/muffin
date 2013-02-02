@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title> Homepage  - A design focused front-end web template 
+		<title> Muffin  - A design focused front-end web template 
 using SASS and Jekyll.</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -88,7 +88,9 @@ using SASS and Jekyll.</title>
 						<li>YUI compression</li>
 						<li>SVGeezy.js</li>
 					</ul>	
-					<a href="/../chocolatechip.zip" class="dl-cc">Download</a>					
+					<a href="/../chocolatechip.zip" class="dl-cc">Download 
+						<span style="font-size: 0.6em;">(Mac only ATM)<span>
+					</a>					
 				</article>
 			</section>
 		</div>
@@ -99,24 +101,105 @@ using SASS and Jekyll.</title>
 				Main Features
 			</header>
 			<span class="sub-text">
-				Pick a package based on the type of site you want to design.
+				Here are just of the main features that come with Muffin
 			</span>
-
 			<div class="n-logo m-line">
 				<img src="/img/muffin_logo.svg" alt="muffin-logo">
 				<hr>
-			</div>
-					
-			<section class="row-fluid">
+			</div>		
+			<section class="row-fluid feat-sub">
 				<article class="span6">
-					Feature 1
+					<header>
+						1. Colour Variables
+						<a href="http://richbray.me/cms">(via Color Me SASS)</a>
+					</header>
+<pre>
+body{
+	background-color: <strong>$orangeDark;</strong>
+	color:<strong> $whiteFloral;</strong>
+}
+</pre>	
+	<aside>compiles to</aside>
+<pre>
+body{
+	background-color: <b>#993D00;</b>
+	color:<b> #fffaf0;</b>
+}
+</pre>					
+					
 				</article>
 				<article class="span6">
-					Feature 2
-				</article>				
+					<header>
+						2. SVG Icons
+						<a href="http://fortawesome.github.com/Font-Awesome/">(via Font Awesome)</a>
+					</header>
+<pre>
+Say Cheese <strong>&lt;i class="icon-camera-retro"&gt;&lt;/i&gt;</strong>
+Say Cheese &lt;i <b>style="font-size:5em"</b> class="icon-camera-retro"&gt;&lt;/i&gt;
+</pre>	
+	<aside>compiles to</aside>
+<pre>
+Say Cheese <i class="icon-camera-retro"></i>
+Say Cheese <i style="font-size:5em"class="icon-camera-retro"></i>
+</pre>						
+				</article>								
 			</section>
+			<section class="row-fluid feat-sub">
+				<article class="span6">
+					<header>
+						3. SASS media queries
+						<a href="http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32">(via this article)</a>		
+					</header>
+<pre>
+pre{
+	font-size: 1.5em;
+	<strong>
+	@include respond-to(medbig) { 
+		font-size: 1em;
+	}</strong>
+}
+</pre>	
+	<aside>compiles to</aside>
+<pre>
+pre{
+	font-size: 1.5em;
+}
+<b>@media only screen and (max-width: 60em){
+	pre{
+		font-size: 1em;
+	}
+}</b>
+
+</pre>						
+				</article>
+				<article class="span6">
+					<header>
+					4. HTML Includes
+					<a href="http://jekyllrb.com/">(via Jekyll)</a>					
+					</header>
+				</article>
+			</section>
+			<section class="row-fluid" style="margin:1em 0 3em">
+			<div class="h-button">
+				<a href="https://github.com/RichardBray/Muffin">And Much Much More</a>
+			</div>				
+			</section>								
 		</div>
 	</div>
+	<div class="features">
+		<div class="container">
+			<header class="head-text">
+				Quick Install Guide
+			</header>
+			<span class="sub-text">
+				How to quickly get this bad-boy up and running
+			</span>
+			<div class="n-logo m-line">
+				<img src="/img/muffin_logo.svg" alt="muffin-logo">
+				<hr>
+			</div>				
+		</div>
+	</div>	
 	
 
 

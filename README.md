@@ -109,8 +109,8 @@ The work is provided “as is”, without warranty or support, express or implie
 
 Todos
 -------
-
-* Remove unused REAMDE.md files
+* IE variables
+* Get it working with guard reload
 * SASS media queries mixins
-* Content section for CSS
 * Make screencast for Muffin
+* Muffin with node.js

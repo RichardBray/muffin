@@ -6,9 +6,8 @@ Contents
 1. Navigation
 2. Hero Section
 3. Flavours
-4. Page
-5. Footer
-6. Shared Styles
+4. Footer
+5. Shared Styles
 	a. extends
 	b. fonts
 
@@ -213,7 +212,68 @@ Contents
 	@extend .fl-dl;
 }
 
-// 6. Shared Styles
+//.circ{
+//	font-size: 0.8em;
+//	padding: 0.01em 0.572em;
+//	margin: 0 0.6em;
+//	@include border-radius(2em);
+//}
+
+// 3.a. Features
+// --------------------------------------------------
+
+
+pre{
+	text-align:left;
+	font-size: 15px;
+
+	@include respond-to(medbig) { 
+		margin: 0 1em 1em ;
+	}
+}
+
+
+.feat-sub header{
+	font-size: 1.35em;
+	margin-bottom: 0.7em;
+	a{
+		font-size: 0.5em;
+	}
+}
+
+.feat-sub {
+	pre strong{
+		color: $pinkHot;
+		font-weight:normal;
+	}
+
+	aside{
+		margin-bottom: 1em;
+		font-style: italic;
+	}	
+
+	pre b{
+		color: $greenMint;
+		font-weight:normal;
+	}	
+
+	.span6{
+		margin-bottom: 3em;
+	}
+}
+
+
+
+
+.feat-sub pre b{
+	color: $greenMint;
+	font-weight:normal;
+}
+
+
+
+
+// 5. Shared Styles
 // --------------------------------------------------
 
 body{
@@ -247,7 +307,7 @@ body{
 	}
 }
 
-// 6.a Extends
+// 5.a Extends
 // --------------------------------------------------
 
 
@@ -259,7 +319,7 @@ body{
 	@include transition(0.3s ease);
 }
 
-// 6.b Fonts
+// 5.b Fonts
 // --------------------------------------------------
 
 @font-face {
