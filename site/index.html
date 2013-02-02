@@ -15,7 +15,7 @@ title: Muffin
 			</div>		
 		</div>
 	</div>
-	<div class="flavour">
+	<div class="flavour" id="flav">
 		<div class="container">
 			<header class="head-text">
 				Pick Your Flavour
@@ -63,7 +63,7 @@ title: Muffin
 			</section>
 		</div>
 	</div>
-	<div class="features">
+	<div class="features" id="feat">
 		<div class="container">
 			<header class="head-text">
 				Main Features
@@ -145,27 +145,72 @@ pre{
 					4. HTML Includes
 					<a href="http://jekyllrb.com/">(via Jekyll)</a>					
 					</header>
-				</article>
+				
+<pre>
+&lt;div class="about-page"&gt;
+	&#123;% include bluth_ipsum.html %&#125;
+&lt;/div&gt;
+</pre>	
+	<aside>compiles to</aside>
+<pre>
+&lt;div class="about-page"&gt;
+	&lt;p&gt;
+	Let's make Ann the backup, okay? Very good way to think about her, as a backup. George Bush doesn't care about black puppets. And I am rock steady. No more dizzies.
+	&lt;p&gt;
+	I'm a scholar. I enjoy scholarly pursuits. Suddenly playing with yourself is a scholarly pursuit? I'd rather ...
+	<a href="http://bluthipsum.com/" target="_blank">text via bluthipsum.com</a>
+&lt;/div&gt;
+
+</pre>	
+</article>				
 			</section>
 			<section class="row-fluid" style="margin:1em 0 3em">
-			<div class="h-button">
-				<a href="https://github.com/RichardBray/Muffin">And Much Much More</a>
+			<div class="h-button" style="margin-top:0;">
+				<a href="https://github.com/RichardBray/Muffin/blob/master/FEATURES.md">And Much Much More</a>
 			</div>				
 			</section>								
 		</div>
 	</div>
-	<div class="features">
+	<div class="features" id="inst">
 		<div class="container">
 			<header class="head-text">
 				Quick Install Guide
 			</header>
 			<span class="sub-text">
-				How to quickly get this bad-boy up and running
+				How to quickly get this bad-boy up and running.
 			</span>
 			<div class="n-logo m-line">
 				<img src="/img/muffin_logo.svg" alt="muffin-logo">
 				<hr>
-			</div>				
+			</div>
+			<section class="row-fluid">
+				<article class="span3">
+					<header >
+						1. Install Ruby on Rails
+					</header>
+					If your on a Windows on a Mac, you can just use <a href="http://railsinstaller.org/" target="_blank">Railsinstaller</a> and bam! You've got ruby on rails with a bunch of other cool stuff.
+				</article>
+				<article class="span3">
+					<header >
+						2. Download Muffin
+					</header>
+					Download the Muffin flavour you wat to use, place it in an easily accessable directory and unzip it.
+				</article>	
+				<article class="span3">
+					<header >
+						3. Install the gems
+					</header>
+					Use<a href="http://ss64.com/osx/cd.html" target="_blank">cd</a> to get to where you unzipped Muffin. Type 'bundle' and hit enter.
+				</article>		
+				<article class="span3">
+					<header >
+						4. And your good to go
+					</header>
+					Add your custom sass in 'css/sass/custom/_style.scss', then
+					type 'sh wath.sh' to watch it.
+					In a new window/tab type 'jekyll' to watch your site.
+				</article>										
+			</section>				
 		</div>
 	</div>	
 	

@@ -21,7 +21,14 @@ Contents
 
 
 .nav{
-	margin-top: 1em;
+	padding: 1em 0;
+	border-bottom: 1px solid $grayLighter;
+    background: rgba(#fffcf5, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    z-index: 1;
 }
 
 .n-logo{
@@ -271,6 +278,23 @@ pre{
 }
 
 
+// 4. Footer
+// --------------------------------------------------
+
+
+footer{
+	background-color: desaturate(darken(#fffcf5, 5%), 80%);
+	margin-top: 5em;
+	padding: 2em 0;
+
+	a {
+		color: $linkColor;
+	}	
+}
+
+.twitter-share-button {
+	float: right;
+}
 
 
 // 5. Shared Styles
@@ -278,6 +302,14 @@ pre{
 
 body{
 	background-color: #fffcf5;
+}
+
+main{ 
+    margin-top: 5.6em;
+}
+
+a {
+	color: $pinkHot;
 }
 
 ::-moz-selection {
