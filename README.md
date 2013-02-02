@@ -109,8 +109,9 @@ The work is provided “as is”, without warranty or support, express or implie
 
 Todos
 -------
-* IE variables
+
+* Simplify Bootstrap for apple
+* CSS framework for chocolate chip
 * Get it working with guard reload
-* SASS media queries mixins
 * Make screencast for Muffin
 * Muffin with node.js

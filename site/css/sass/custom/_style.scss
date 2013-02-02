@@ -23,7 +23,8 @@ Contents
 .nav{
 	padding: 1em 0;
 	border-bottom: 1px solid $grayLighter;
-    background: rgba(#fffcf5, 0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,.1);
+    background: #fffcf5;
     position: fixed;
     width: 100%;
     height: 50px;
@@ -44,6 +45,7 @@ Contents
 	float:right;
 	list-style:none;
 	margin-top: 1.2em;
+	font-weight: bold;
 
 	li{
 		display:inline-block;
@@ -136,11 +138,13 @@ Contents
 
 .flavour, .features{
 	text-align:center;
+	padding-top: 7em;
 }
 
 .head-text{
 	font-size: 2.5em;
-	padding: 1.5em 0 0.7em 0;
+	font-weight: bold;
+	padding: 0em 0 0.7em 0;
 }
 
 .sub-text{
@@ -270,13 +274,29 @@ pre{
 }
 
 
-
-
 .feat-sub pre b{
 	color: $greenMint;
 	font-weight:normal;
 }
 
+
+// 3.b. Install
+// --------------------------------------------------
+
+.i-steps{
+	text-align: left;
+	header{
+		font-size: 1.4em;
+		padding-bottom: 1em;
+	}
+	span{
+		background-color: lighten($grayLight, 30%);
+	}	
+
+	.span3{
+		margin-bottom:3em;
+	}
+}
 
 // 4. Footer
 // --------------------------------------------------
@@ -284,7 +304,7 @@ pre{
 
 footer{
 	background-color: desaturate(darken(#fffcf5, 5%), 80%);
-	margin-top: 5em;
+	margin-top: 3em;
 	padding: 2em 0;
 
 	a {
