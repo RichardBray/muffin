@@ -1,20 +1,20 @@
 /* TEAM */
                             
-Your title: Your name.                        
-Site: email, link to a contact form, etc.                         
-Twitter: your Twitter username.                        
-Location: City, Country.
+Designer & Developer: Richard Bray                          
+Site: http://richbray.me/                          
+Twitter: @Ceiga                        
+Location: London, UK
 
-
+							
 /* THANKS */
-
-HTML5 Muffin
-Name: name or url
+					
+Muffin
+Friend, family, followers, Jesus
 
                             
 /* SITE */
                           
-Last update: YYYY/MM/DD                    
-Standards: HTML5, CSS3,..                   
-Components: Modernizr, jQuery, etc.                            
-Software: Software used for the development
+Last update: 31/12/2012                     
+Standards: HTML5, CSS3                    
+Components: jQuery, Github                            
+Software: Sublime Text 2, Chrome Canary & Developer tools (used that a lot)

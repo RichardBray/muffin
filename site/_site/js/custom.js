@@ -1,4 +1,4 @@
 //custom js goes here
 
 
-$(".hero").backstretch("/img/muffin_bg.jpg");
+$(".hero").backstretch("http://richbray.me/muffin/img/muffin_bg.jpg");

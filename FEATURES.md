@@ -4,8 +4,8 @@ Muffin Features
 1. Colour Variables (via Color Me SASS)
 
 	body{
-		background-color: $orangeDark;
-		color: $whiteFloral;
+	background-color: $orangeDark;
+	color: $whiteFloral;
 	}
 
 
@@ -18,18 +18,18 @@ Muffin Features
 3. SASS media queries
 
 	pre{
-		font-size: 1.5em;
-		
-		@include respond-to(medbig) { 
-			font-size: 1em;
-		}
+	font-size: 1.5em;
+
+	@include respond-to(medbig) { 
+		font-size: 1em;
+	}
 	}
 
 
 4. HTML Includes (via Jekyll)
 
 	<div class="about-page">
-		{% include bluth_ipsum.html %}
+	{% include bluth_ipsum.html %}
 	</div>
 
 
