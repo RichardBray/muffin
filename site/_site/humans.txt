@@ -1,20 +1,20 @@
 /* TEAM */
                             
-Designer & Developer: Richard Bray                          
-Site: http://richbray.me/                          
-Twitter: @Ceiga                        
-Location: London, UK
+Your title: Your name.                        
+Site: email, link to a contact form, etc.                         
+Twitter: your Twitter username.                        
+Location: City, Country.
 
-							
+
 /* THANKS */
-					
-Muffin
-Friend, family, followers, Jesus
+
+HTML5 Muffin
+Name: name or url
 
                             
 /* SITE */
                           
-Last update: 31/12/2012                     
-Standards: HTML5, CSS3                    
-Components: jQuery, Github                            
-Software: Sublime Text 2, Chrome Canary & Developer tools (used that a lot)
+Last update: YYYY/MM/DD                    
+Standards: HTML5, CSS3,..                   
+Components: Modernizr, jQuery, etc.                            
+Software: Software used for the development

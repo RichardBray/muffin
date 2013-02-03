@@ -102,7 +102,7 @@ Contents
 
 	a{
 		@extend .white;
-		padding: 0.5em 0.7em;
+		padding: 0.5em 2em;
 		background-color: desaturate($pinkRose, 20%);
 		font-size: 1.4em;
 		@extend .trans-three;
@@ -295,6 +295,7 @@ pre{
 
 	.span3{
 		margin-bottom:3em;
+		line-height: 1.75em;
 	}
 }
 
