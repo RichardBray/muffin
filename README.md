@@ -110,7 +110,7 @@ The work is provided “as is”, without warranty or support, express or implie
 Todos
 -------
 
-* Add hint.css
+* Add hint.css and windows stuff to css
 * Simplify Bootstrap for apple
 * CSS framework for chocolate chip
 * Get it working with guard reload
