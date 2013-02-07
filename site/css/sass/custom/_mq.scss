@@ -8,9 +8,9 @@
 $screenSmallest: 20em; //320px
 $screenSmallest: 25em; //400px
 $screenSmall: 30em; //480px
-$screenMedsml: 35em; //560px
+$screenMedSml: 35em; //560px
 $screenMed: 40em; //640px
-$screenMedbig: 45em; //720px
+$screenMedBig: 45em; //720px
 $screenBig: 60em; //960px
 $screenBigger: 65em; //1040px
 $screenBiggest: 75em; //1200px
@@ -19,22 +19,22 @@ $screenSuper: 100em; //1600px
 
 @mixin respond-to($media) {
   @if $media == smallscr {
-    @media only screen and (max-width: $screenSmall) { @content; }
+    @media only screen and (max-width: $screenSmall) { @-ms-viewport { width: $screenSmall } @content; }
   }
   @else if $media == smallscr-medsml {
-    @media only screen and (min-width: $screenSmall + 1) and (max-width: $screenMedsml - 1) { @content; }
+    @media only screen and (min-width: $screenSmall + 1) and (max-width: $screenMedSml - 1) { @-ms-viewport { width: $screenSmall } @content; }
   }
   @else if $media == medscr {
-    @media only screen and (max-width: $screenMed) { @content; }
+    @media only screen and (max-width: $screenMed) { @-ms-viewport { width: $screenMed } @content; }
   }
   @else if $media == medbig {
-    @media only screen and (max-width: $screenBig) { @content; }
+    @media only screen and (max-width: $screenMedBig) { @-ms-viewport { width: $screenMedBig } @content; }
   }  
   @else if $media == medbig-bigscr {
-    @media only screen and (min-width: $screenMedbig + 1) and (max-width: $screenBig - 1) { @content; }
+    @media only screen and (min-width: $screenMedBig + 1) and (max-width: $screenBig - 1) { @-ms-viewport { width: $screenMedBig } @content; }
   } 
   @else if $media == bigscr {
-    @media only screen and (max-width: $screenBig) { @content; }
+    @media only screen and (max-width: $screenBig) { @-ms-viewport { width: $screenBig } @content; }
   }   
 }
 
