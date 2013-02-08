@@ -1,4 +1,4 @@
-# ![HTML5 Muffin](http://richbray.me/muffin/img/logo.png)
+# ![HTML5 Muffin](http://richbray.me/muffin/img/logo-github.png)
 
 HTML5-Muffin
 ============
