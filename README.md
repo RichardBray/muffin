@@ -111,5 +111,4 @@ Todos
 -------
 
 * Get it working with guard reload
-* Make screencast for Muffin
 * Muffin with node.js

@@ -6,6 +6,8 @@ Contents
 1. Navigation
 2. Hero Section
 3. Flavours
+	a. Features
+	b. Install
 4. Footer
 5. Shared Styles
 	a. extends
@@ -106,9 +108,9 @@ Contents
 
 	a{
 		@extend .white;
-		padding: 0.5em 2em;
+		padding: 0.2em 0.8em;
 		background-color: desaturate($pinkRose, 20%);
-		font-size: 1.4em;
+		font-size: 2.7em;
 		@extend .trans-three;
 
 		&:hover{
@@ -284,6 +286,20 @@ pre{
 }
 
 
+.f-button{
+	@extend .h-button;
+	a{
+		font-size: 1.4em;
+		padding: 0.5em 2em;
+	}
+}
+
+.v-steps{
+	header{
+		font-size:1.4em;
+		margin-top:1em;
+	}
+}
 // 3.b. Install
 // --------------------------------------------------
 

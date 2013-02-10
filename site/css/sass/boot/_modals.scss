@@ -43,7 +43,7 @@
   border: 1px solid #999;
   border: 1px solid rgba(0,0,0,.3);
   *border: 1px solid #999; /* IE6-7 */
-  @include border-radius(6px);
+  //@include border-radius(6px);
   @include box-shadow(0 3px 7px rgba(0,0,0,0.3));
   @include background-clip(padding-box);
   &.fade {
