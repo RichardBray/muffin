@@ -9,7 +9,7 @@ Muffin takes advantage of common practices from [Bootstrap](http://twitter.githu
 
 Fill site [here](http://richbray.me/muffin/)
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/o_kjoYqI11M" frameborder="0" allowfullscreen></iframe>
+<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/o_kjoYqI11M?hl=en_GB&amp;version=3&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/o_kjoYqI11M?hl=en_GB&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 Different Flavours
 ------------------
