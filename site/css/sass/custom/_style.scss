@@ -122,6 +122,16 @@ Contents
 	
 }
 
+.h-version{
+	text-align: center;
+	margin: 3em 0 -3em;
+	font-size: 1.05em;
+	a{
+		color: $white;
+		padding: 0 0.6em;
+	}
+}
+
 @media (max-width: 30em) {
 
 	.hero{
