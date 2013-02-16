@@ -19,13 +19,13 @@ $screenSuper: 100em; //1600px
 
 @mixin respond-to($media) {
   @if $media == smallscr {
-    @media only screen and (max-width: $screenSmall) { @-ms-viewport { width: $screenSmall } @content; }
+    @media (max-width: $screenSmall) { @-ms-viewport { width: $screenSmall } @content; }
   }
   @else if $media == smallscr-medsml {
     @media only screen and (min-width: $screenSmall + 1) and (max-width: $screenMedSml - 1) { @-ms-viewport { width: $screenSmall } @content; }
   }
   @else if $media == medscr {
-    @media only screen and (max-width: $screenMed) { @-ms-viewport { width: $screenMed } @content; }
+    @media (max-width: $screenMed) { @-ms-viewport { width: $screenMed } @content; }
   }
   @else if $media == medbig {
     @media only screen and (max-width: $screenMedBig) { @-ms-viewport { width: $screenMedBig } @content; }
@@ -34,7 +34,7 @@ $screenSuper: 100em; //1600px
     @media only screen and (min-width: $screenMedBig + 1) and (max-width: $screenBig - 1) { @-ms-viewport { width: $screenMedBig } @content; }
   } 
   @else if $media == bigscr {
-    @media only screen and (max-width: $screenBig) { @-ms-viewport { width: $screenBig } @content; }
+    @media (max-width: $screenBig) { @-ms-viewport { width: $screenBig } @content; }
   }   
 }
 
