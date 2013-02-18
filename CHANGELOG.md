@@ -4,6 +4,7 @@ Changelog
 
 * Updated Bootstrap to Version 2.3.0
 * Added roles to template
+* Fixed media queries bugs
 
 
 ### 1.0.1 (February 13, 2013)
