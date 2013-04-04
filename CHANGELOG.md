@@ -1,5 +1,10 @@
 Changelog
 ------------
+
+### 1.0.3 (April 04, 2013)
+
+* Updated color me sass on all flavours
+
 ### 1.0.2 (February 16, 2013)
 
 * Updated Bootstrap to Version 2.3.0
