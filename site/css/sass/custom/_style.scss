@@ -83,7 +83,6 @@ Contents
 
 .hero{
 	padding:5em 0;
-	border-bottom: 10px solid desaturate($pinkRose, 20%);
 }
 
 .h-title{
@@ -162,6 +161,17 @@ Contents
 	}
 }
 
+.frap-plug {
+	background-color: desaturate($pinkRose, 20%);
+	color: $white;
+	padding: 1.1em 0;
+	text-align: center;
+	font-size: 1.3em;
+
+	a{
+		color: $limeLighter;
+	}
+}
 
 // 3. Flavours
 // --------------------------------------------------
