@@ -1,0 +1,271 @@
+<!-- Content
+    ================================================== -->
+    <div class="hero">
+		<div class="container">
+			<div class="h-title">Muffin</div>
+			<div class="h-slogan">
+				A design focused front-end web template <br>using <a href="http://sass-lang.com/">SASS</a> and <a href="http://jekyllrb.com/">Jekyll</a>.
+			</div>	
+			<div class="h-button">
+				<a href="http://www.youtube.com/watch?v=sxiQmHlogdg" target="_blank" role="button" data-toggle="modal"><i class="icon-play-circle"></i></a>
+			</div>	
+			<div class="h-version">
+				<a href="https://github.com/RichardBray/Muffin">Github</a>
+				
+				<a href="https://github.com/RichardBray/Muffin/wiki/Chngelog">Version 1.0.2</a>
+			</div>
+		</div>
+	</div>
+	<div class="frap-plug">
+		<div class="container">
+			Not much of a designer? Check out <a href="http://richbray.me/frap/">Frappuccino.</a>
+		</div>
+	</div>	
+	<div class="flavour" id="flav">
+		<div class="container">
+			<header class="head-text">
+				Pick Your Flavour
+			</header>
+			<span class="sub-text">
+				Pick a package based on the type of site you want to design.
+			</span>
+			<div class="n-logo m-line">
+				<img src="http://richbray.me/muffin/img/muffin_logo.svg" alt="muffin-logo">
+				<hr>
+			</div>
+			<section class="row-fluid">
+				<article class="fl-list span4">
+					<header class="apple">Apple</header>
+					<ul>
+						<li>Twitter Bootstrap</li>
+						<li>Font Awesome</li>
+						<li>Color Me SASS</li>
+						<li>&nbsp;</li>
+					</ul>
+					<a href="http://richbray.me/muffin/apple.zip" class="dl-apple">Download</a>
+				</article>
+				<article class="fl-list span4">
+					<header class="blueberry">Blueberry</header>
+					<ul>
+						<li>Everything in <span class="apple">Apple</span></li>
+						<li>Jekyll file layout</li>
+						<li>SVG plugin for Jekyll</li>
+						<li>&nbsp;</li>
+					</ul>
+					<a href="http://richbray.me/muffin/blueberry.zip" class="dl-bb">Download</a>					
+				</article>
+				<article class="fl-list span4">
+					<header class="chocchip">Chocolate Chip</header>
+					<ul>
+						<li>Everything in <span class="blueberry">Blueberry</span></li>
+						<li>Jekyll asset pipeline</li>
+						<li>YUI compression</li>
+						<li>SVGeezy.js</li>
+					</ul>	
+					<a href="http://richbray.me/muffin/chocolatechip.zip" class="dl-cc">Download 
+						<span style="font-size: 0.6em;">(No Windows)<span>
+					</a>					
+				</article>
+			</section>
+		</div>
+	</div>
+	<div class="features" id="feat">
+		<div class="container">
+			<header class="head-text">
+				Main Features
+			</header>
+			<span class="sub-text">
+				Here are just of the main features that come with Muffin
+			</span>
+			<div class="n-logo m-line">
+				<img src="http://richbray.me/muffin/img/muffin_logo.svg" alt="muffin-logo">
+				<hr>
+			</div>		
+			<section class="row-fluid feat-sub">
+				<article class="span6">
+					<header>
+						1. Colour Variables
+						<a href="http://richbray.me/cms">(via Color Me SASS)</a>
+					</header>
+<pre>
+body{
+	background-color: <strong>$orangeDark;</strong>
+	color:<strong> $whiteFloral;</strong>
+}
+</pre>	
+	<aside>compiles to</aside>
+<pre>
+body{
+	background-color: <b>#993D00;</b>
+	color:<b> #fffaf0;</b>
+}
+</pre>					
+					
+				</article>
+				<article class="span6">
+					<header>
+						2. SVG Icons
+						<a href="http://fortawesome.github.com/Font-Awesome/">(via Font Awesome)</a>
+					</header>
+<pre>
+Say Cheese <strong>&lt;i class="icon-camera-retro"&gt;&lt;/i&gt;</strong>
+Say Cheese &lt;i <b>style="font-size:5em"</b> class="icon-camera-retro"&gt;&lt;/i&gt;
+</pre>	
+	<aside>compiles to</aside>
+<pre>
+Say Cheese <i class="icon-camera-retro"></i>
+Say Cheese <i style="font-size:5em"class="icon-camera-retro"></i>
+</pre>						
+				</article>								
+			</section>
+			<section class="row-fluid feat-sub">
+				<article class="span6">
+					<header>
+						3. SASS media queries
+						<a href="http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32">(from this article)</a>		
+					</header>
+<pre>
+pre{
+	font-size: 1.5em;
+	<strong>
+	@include respond-to(medbig) { 
+		font-size: 1em;
+	}</strong>
+}
+</pre>	
+	<aside>compiles to</aside>
+<pre>
+pre{
+	font-size: 1.5em;
+}
+<b>@media only screen and (max-width: 60em){
+	pre{
+		font-size: 1em;
+	}
+}</b>
+
+</pre>						
+				</article>
+				<article class="span6">
+					<header>
+					4. HTML Includes
+					<a href="http://jekyllrb.com/">(via Jekyll)</a>					
+					</header>
+				
+<pre>
+&lt;div class="about-page"&gt;
+	<strong>&#123;% include bluth_ipsum.html %&#125;</strong>
+&lt;/div&gt;
+</pre>	
+	<aside>compiles to</aside>
+<pre>
+&lt;div class="about-page"&gt;
+<b>	&lt;p&gt;
+	Let's make Ann the backup, okay? Very good way to think about her, as a backup. George Bush doesn't care about black puppets. And I am rock steady. No more dizzies.
+	&lt;p&gt;
+	I'm a scholar. I enjoy scholarly pursuits. Suddenly playing with yourself is a scholarly pursuit? I'd rather ...</b>
+	text from bluthipsum.com
+&lt;/div&gt;
+
+</pre>	
+</article>				
+			</section>
+			<section class="row-fluid" style="margin:1em 0 3em">
+			<div class="f-button" style="margin-top:0;">
+				<a href="https://github.com/RichardBray/Muffin/wiki/Features">And Much Much More</a>
+			</div>				
+			</section>								
+		</div>
+	</div>
+	<div class="features" id="inst">
+		<div class="container">
+			<header class="head-text">
+				Quick Install Guide
+			</header>
+			<span class="sub-text">
+				How to quickly get this bad-boy up and running.
+			</span>
+			<div class="n-logo m-line">
+				<img src="http://richbray.me/muffin/img/muffin_logo.svg" alt="muffin-logo">
+				<hr>
+			</div>
+			<section class="row-fluid i-steps">
+				<article class="span3">
+					<header >
+						1. Install Ruby on Rails
+					</header>
+					If your on a Windows on a Mac, you can just use <a href="http://railsinstaller.org/" target="_blank">Railsinstaller</a> and bam! You've got ruby on rails with a bunch of other cool stuff.
+				</article>
+				<article class="span3">
+					<header >
+						2. Download Muffin
+					</header>
+					Download the Muffin flavour you wat to use, place it in an easily accessable directory and unzip it.
+				</article>	
+				<article class="span3">
+					<header >
+						3. Install the gems
+					</header>
+					Use <a href="http://ss64.com/osx/cd.html" target="_blank">cd</a> to get to where you unzipped Muffin. Type <span>'bundle'</span> and hit enter.
+				</article>		
+				<article class="span3">
+					<header >
+						4. And your good to go
+					</header>
+					Add your custom sass in <b>'css/sass/custom/_style.scss'</b>, then
+					type <span>'sh wath.sh'</span> to watch it.
+					In a new window/tab type <span>'jekyll'</span> to watch your site.
+				</article>										
+			</section>				
+		</div>
+	</div>	
+	
+	<div class="features" id="vid">
+		<div class="container">
+			<header class="head-text">
+				Explanation Videos
+			</header>
+			<span class="sub-text">
+				If you're not a reading person, check out these short videos. FYI, they link to youtube.
+			</span>
+			<div class="n-logo m-line">
+				<img src="http://richbray.me/muffin/img/muffin_logo.svg" alt="muffin-logo">
+				<hr>
+			</div>
+			<section class="row-fluid v-steps">
+				<article class="span4">
+					<a href="http://www.youtube.com/watch?v=o_kjoYqI11M">
+						<img src="http://richbray.me/muffin/img/vid-1.jpg" alt="Muffin SASS features video">
+					</a>
+					<header >
+						1. Muffin SASS features 
+					</header>
+				</article>
+				<article class="span4">
+					<a href="http://www.youtube.com/watch?v=_pAN2teLOXA">
+						<img src="http://richbray.me/muffin/img/vid-2.jpg" alt="Muffin SASS features part 2 video">
+					</a>
+					<header >
+						2. Muffin SASS features part 2
+					</header>
+				</article>	
+				<article class="span4">
+					<a href="http://www.youtube.com/watch?v=sxiQmHlogdg">
+						<img src="http://richbray.me/muffin/img/vid-3.jpg" alt="Jekyll tutorial - basic static blog using jekyll video">		
+					</a>			
+					<header >
+						3. Jekyll tutorial - basic static blog using jekyll
+					</header>
+				</article>												
+			</section>				
+		</div>
+	</div>
+
+
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-body">
+			<iframe width="525" height="320" src="http://www.youtube.com/embed/o_kjoYqI11M" frameborder="0" allowfullscreen></iframe>
+			<button style="float:right;" class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
+		</div>
+	</div>
+
