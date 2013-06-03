@@ -1,6 +1,12 @@
 Changelog
 ------------
 
+### 1.0.4 (June 03, 2013)
+
+* Updated bootstrap to 2.3.2
+* Updated Font Awesome to 3.1.1
+* Added jQuery fallback
+
 ### 1.0.3 (April 04, 2013)
 
 * Updated color me sass on all flavours

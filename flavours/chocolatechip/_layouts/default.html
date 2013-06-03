@@ -14,10 +14,6 @@
 - /_assets/style.css
 {% endcss_asset_tag %}	
 <!-- you can indent from here onwards -->
-		<!--[if IE 7]>
-			<html class="ie7"> 
-			<link rel="stylesheet" type="text/css" href="/font-awesome-ie7.min.css">
-		<![endif]-->
 		<!--[if IE 8]><html class="ie8"> <![endif]-->		
 	    <!--[if lt IE 9]>
 	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -47,7 +43,8 @@
 
 	<!-- Javascripts 
 	    ================================================= -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script>if (!window.jQuery) {document.write('<script src="/js/jquery.min.js"><\/script>');}</script>
 <!-- IMPORTANT do not indent these lines, if you do the jekyll asset pipeline won't work. -->
 {% javascript_asset_tag global %}
 - /_assets/js/custom.js
