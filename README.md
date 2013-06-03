@@ -1,7 +1,5 @@
 # ![HTML5 Muffin](http://richbray.me/muffin/img/logo-github.png)
 
-Muffin
-============
 
 A design focused front-end web development template using SASS and Jekyll.
 
