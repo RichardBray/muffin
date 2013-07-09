@@ -1,6 +1,13 @@
 Changelog
 ------------
 
+### 1.0.5 (July 09, 2013)
+
+* Changed jQuery from 2.0.0 to 1.10.1
+* Updated Font Awesome to 3.2.1
+* Changed css/scss file layout...again
+* Updated color-me-sass from 1.2 to 1.3
+
 ### 1.0.4 (June 03, 2013)
 
 * Updated bootstrap to 2.3.2
