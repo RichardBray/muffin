@@ -1,15 +1,32 @@
 Changelog
 ------------
 
+### 1.1.0 (August 27, 2013)
+
+* Updated bootstrap version to 3.0.0
+* Updated _config.yml file to support jekyll 1.1.2
+* Updated README.md to support jekyll 1.1.2
+
+
+### 1.0.5 (July 09, 2013)
+
+* Changed jQuery from 2.0.0 to 1.10.1
+* Updated Font Awesome to 3.2.1
+* Changed css/scss file layout...again
+* Updated color-me-sass from 1.2 to 1.3
+
+
 ### 1.0.4 (June 03, 2013)
 
 * Updated bootstrap to 2.3.2
 * Updated Font Awesome to 3.1.1
 * Added jQuery fallback
 
+
 ### 1.0.3 (April 04, 2013)
 
 * Updated color me sass on all flavours
+
 
 ### 1.0.2 (February 16, 2013)
 

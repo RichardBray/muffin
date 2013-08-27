@@ -67,7 +67,7 @@ Annnnnnd, you're done. Dont forget to watch your SASS if you want to make change
 
 5. Run 'bundle' and hit Enter.
 
-6. Run 'jekyll' to make changes to the html.
+6. Run 'jekyll serve --watch' or 'jekyll serve -w' to make changes to the html.
 
 And I tink that's it. Enjoy.
 
@@ -110,5 +110,4 @@ The work is provided “as is”, without warranty or support, express or implie
 Todos
 -------
 
-* Get it working with guard reload
 * Muffin with node.js
