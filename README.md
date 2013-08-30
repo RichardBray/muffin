@@ -69,15 +69,7 @@ Annnnnnd, you're done. Dont forget to watch your SASS if you want to make change
 
 6. Run 'jekyll serve --watch' or 'jekyll serve -w' to make changes to the html.
 
-And I tink that's it. Enjoy.
-
-
-Side notes
-----------
-
-* Whatever flavour you're using make sure you losslessly compress all you images (unless you're using .svg). Check out [kraken](http://kraken.io/), probably the best online image compressin site it've used.
-
-* Be sure to use [Font Awesome](http://fortawesome.github.com/Font-Awesome/) at all costs. It's svg and much better than the free glyphicoins you get with Bootstrap.
+And I think that's it. Enjoy.
 
 
 Running SASS
@@ -90,6 +82,32 @@ To watch your sass just run
 If you files are in a different directory you'll have to edit watch.sh accordingly.
 
 	sass --watch [where your scss file is].scss:[where you want your css to go].css --style compressed
+
+
+Using Chocolate Chip
+------------------
+
+1. Download & Install [node.js](http://nodejs.org/download/). It's as simple as running an executalbe on windows and mac.
+
+2. Install Grunt
+
+		npm install -g grunt-cli
+
+3. cd into your directory and install all the dependencies
+
+		nmp install
+
+4. Unfortunatly you'll need two terminal/command line windows or tabs to get this going from here on
+
+5. In one of the windows (to watch Jekyll & SASS) run
+		
+		grunt
+
+6. In the second one (to watch for CSS and JS changes) run
+
+		grunt watch
+
+7. And that should be it. Let me know if you run into any issues
 
 
 Liscense
@@ -110,4 +128,4 @@ The work is provided “as is”, without warranty or support, express or implie
 Todos
 -------
 
-* Muffin with node.js
+* Get grunt livereload to work in chocolate chip 

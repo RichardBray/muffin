@@ -1,6 +1,13 @@
 Changelog
 ------------
 
+### 1.1.5 (August 30, 2013)
+
+* Removed jekyll-asset-pipeline
+* Added Grunt tasks to minify and concatenate js and css
+* Added grunt tasks to run Jekyll and sass simultaneously 
+
+
 ### 1.1.0 (August 27, 2013)
 
 * Updated bootstrap version to 3.0.0
