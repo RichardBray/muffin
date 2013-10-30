@@ -1,6 +1,12 @@
 Changelog
 ------------
 
+### 1.1.6 (October 30, 2013)
+
+* Updated font awesome to 4.0.1
+
+
+
 ### 1.1.5 (August 30, 2013)
 
 * Removed jekyll-asset-pipeline
