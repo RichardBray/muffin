@@ -113,7 +113,7 @@ Using Chocolate Chip
 Liscense
 ----------
 
-Color Me SASS is licensed under the [☺ license.](http://licence.visualidiot.com/)
+Muffin is licensed under the [☺ license.](http://licence.visualidiot.com/)
 
 You, the licensee, are hereby granted free usage in both personal and commerical environments, without any obligation of attribution or payment (monetary or otherwise). The licensee is free to use, copy, modify, publish, distribute, sublicence, and/or merchandise the work, subject to the licensee inflecting a positive message unto someone. This includes (but is not limited to): smiling, being nice, saying “thank you”, assisting other persons, or any similar actions percolating the given concept.
 
