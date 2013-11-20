@@ -1,11 +1,11 @@
 Changelog
 ------------
 
-### 1.1.6 (October 30, 2013)
+
+### 1.1.6 (November 20, 2013)
 
 * Updated font awesome to 4.0.1
-
-
+* Added user scalable to header to speed up site on mobile devices
 
 ### 1.1.5 (August 30, 2013)
 
