@@ -5,7 +5,7 @@ A design focused front-end web development template using SASS and Jekyll.
 
 Muffin takes advantage of common practices from [Bootstrap](http://twitter.github.com/bootstrap/), [Boilerplate](http://html5boilerplate.com/), [inuit.css](http://inuitcss.com/) and other libaries to let you get straight into coding straight away. 
 
-Fill site [here](http://richbray.me/muffin/)
+Full site [here](http://richbray.me/muffin/)
 
 
 Different Flavours
