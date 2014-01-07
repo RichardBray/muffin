@@ -19,19 +19,13 @@ module.exports = function(grunt) {
 			}
 		},
 
-		bgShell: {
-
-			_defaults: {
-				bg: true
+		shell: {
+			jekyll: {
+				command: 'jekyll serve -w'
 			},
 
-			watchJekyll: {
-				cmd: 'jekyll serve -w'
-			},
-
-			watchSASS: {
-				cmd: 'sass --watch css/style.scss:css/style.css',
-				bg: false
+			sass: {
+				command: 'sass css/style.scss:css/style.css'
 			}			
 		},
 
@@ -42,10 +36,15 @@ module.exports = function(grunt) {
 				tasks: ['uglify']
 			},
 
+			sass:{
+				files: ['css/style.scss'],
+				tasks: ['shell:sass']					
+			},
+
 			css:{
 				files: ['<%= pkg.css %>'],
 				tasks: ['cssmin']				
-			},
+			}
 
 			// reload:{
 			// 	options: {	livereload: true },
@@ -58,10 +57,10 @@ module.exports = function(grunt) {
 		   	
 	});	
 
-	grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-bg-shell');
-	grunt.registerTask('default', ['bgShell']);
+	require('load-grunt-tasks')(grunt);
+
+	grunt.registerTask('default', [ 'shell']);
+
+	grunt.registerTask('w', [ 'watch']);
 };
 
