@@ -110,7 +110,7 @@ Using Chocolate Chip
 7. And that should be it. Let me know if you run into any issues
 
 
-Liscense
+License
 ----------
 
 Muffin is licensed under the [☺ license.](http://licence.visualidiot.com/)
