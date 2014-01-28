@@ -1,5 +1,7 @@
 # ![HTML5 Muffin](http://richbray.me/muffin/img/logo-github.png)
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/RichardBray/muffin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 
 A design focused front-end web development template using SASS and Jekyll.
 
