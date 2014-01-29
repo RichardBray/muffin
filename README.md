@@ -131,3 +131,7 @@ Todos
 -------
 
 * Get grunt livereload to work in chocolate chip 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/RichardBray/muffin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
