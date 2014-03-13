@@ -1,20 +1,16 @@
 {
-  "name": "yourSite",
-  "version": "1.0.0",
-  "css": [
-    "css/style.css"
-  ],
-  "js": [
-    "js/svgeezy.js",
-    "js/custom.js"
-  ],
+  "name": "muffin-app",
+  "description": "your site description goes here",
+  "version": "0.0.1",
+  "private": true,
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-cssmin": "~0.6.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-bg-shell": "~2.1.0",
-    "grunt-shell": "~0.6.1",
-    "load-grunt-tasks": "~0.2.1"
+    "nodemon": "~1.0.14",
+    "gulp-util": "~2.2.13",
+    "gulp": "~3.5.0",
+    "gulp-sass": "~0.6.0",
+    "gulp-minify-css": "~0.2.0",
+    "gulp-autoprefixer": "0.0.6",
+    "gulp-concat": "~2.1.7",
+    "gulp-uglify": "~0.2.0"
   }
 }
