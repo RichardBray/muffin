@@ -4,9 +4,8 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
-    "nodemon": "~1.0.14",
     "gulp-util": "~2.2.13",
-    "gulp": "~3.5.0",
+    "gulp": "*",
     "gulp-sass": "~0.6.0",
     "gulp-minify-css": "~0.2.0",
     "gulp-autoprefixer": "0.0.6",
