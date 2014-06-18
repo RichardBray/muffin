@@ -38,9 +38,16 @@
 @import "wells";
 @import "close";
 
+// Bricks
+@import "bricks";
 
-// Font Awesome
+
+// Font Awesome (don't forget to delete the fonts in the 'font' folder for production)
 @import "font-awesome";
+
+// Ionicons (don't forget to delete the fonts in the 'font' folder for production)
+@import "ionicons";
+
 
 // Components w/ JavaScript
 @import "modals";

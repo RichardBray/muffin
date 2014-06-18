@@ -1,0 +1,83 @@
+// colours
+
+.c-white {color: #fff;}
+.c-grey {color: #838383;}
+.c-black {color: #000;}
+
+.c-red {color: #D42C2C;}
+.c-orange {color: #FF6600;}
+.c-yellow {color: #FFCC00;}
+.c-green {color: #33CC33;}
+.c-blue {color: #0066FF;}
+.c-purple {color: #9966FF;}
+.c-pink {color: #FF33CC;}
+.c-brown {color: #663300;}
+
+
+// layout
+
+
+.w-full { width: 100%;}
+.h-full { height: 100%;}
+
+.fl-r{ float: right; }
+.fl-l{ float: left; }
+
+.cl-r {clear: right; }
+.cl-l {clear: left; }
+.cl {clear: both;}
+
+.m-0 {margin:0;}
+.mt-0_5 {margin-top: 0.5em;}
+.mb-0_5 {margin-bottom: 0.5em;}
+
+.pos-r{position: relative;}
+.pos-f{position: fixed;}
+.pos-a{position: absolute;}
+
+$mb: mb !default;
+$mt: mt !default;
+
+@for $i from 0 through 10 {
+	.#{$mb}-#{$i} {margin-bottom: 0em + $i;}
+	.#{$mt}-#{$i} {margin-top: 0em + $i;}
+}
+
+
+// font/text
+
+
+.fw-b{font-weight: bold;}
+
+.fz-0_5 {font-size: 0.5em;}
+.fz-1_5 {font-size: 1.5em;}
+
+.ta-r {text-align: right; }
+.ta-l {text-align: left; }
+.ta-c {text-align: center; }
+
+.tt-u{text-transform: uppercase;}
+
+.td-n{text-decoration:none;}
+.td-u{text-decoration:underline;}
+
+$fz: fz !default;
+$p: p !default;
+
+@for $i from 0 through 5 {
+	.#{$fz}-#{$i} {font-size: 0em + $i;}
+	.#{$p}-#{$i} {padding: 0em + $i;}
+}
+
+
+// transitions
+
+
+.trans-2 {transition: 0.2s;}
+.trans-3 {transition: 0.3s;}
+
+
+//cursor
+
+
+.cur-p{cursor: pointer;}
