@@ -1,4 +1,4 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# visit http://jekyllrb.com/docs/configuration/ for more settings
 name: Your New Jekyll Site
 markdown: redcarpet
 highlighter: pygments
