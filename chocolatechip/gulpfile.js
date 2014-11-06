@@ -16,7 +16,7 @@ gulp.task('styles', function () {
 
 gulp.task('scripts', function () {
 	gulp.src('js/dev/*.js')
-		.pipe(concat("scripts.js"))
+		.pipe(concat("scripts.min.js"))
 		.pipe(uglify())
 		.pipe(gulp.dest('js'))
 });
@@ -27,4 +27,4 @@ gulp.task('watch', function () {
 });
 
 
-gulp.task('default', ['watch']);	
+gulp.task('default', ['watch']);
