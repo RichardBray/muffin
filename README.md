@@ -5,7 +5,7 @@
 
 A design focused front-end web development template using SASS and Jekyll.
 
-Muffin takes advantage of common practices from [Bootstrap](http://twitter.github.com/bootstrap/), [Boilerplate](http://html5boilerplate.com/), [inuit.css](http://inuitcss.com/) and other libaries to let you get straight into coding straight away. 
+Muffin takes advantage of common practices from [Bootstrap](http://twitter.github.com/bootstrap/), [Boilerplate](http://html5boilerplate.com/), [inuit.css](http://inuitcss.com/) and other libaries to let you get straight into coding straight away.
 
 Full site [here](http://richbray.me/muffin/)
 
@@ -15,7 +15,7 @@ Different Flavours
 
 ###Apple
 
-Good for single page websites. 
+Good for single page websites.
 
 Contains:
 
@@ -43,7 +43,6 @@ For the developer interested in a fast multipage site.
 Contains:
 
 * Everything in Blueberry
-* Jekyll asset pipeline layout
 * YUI compression for CSS and Javascript files
 * .htaccess file for caching and gzipping
 * SVG plugin for Jekyll
@@ -55,7 +54,7 @@ Contains:
 Getting Started
 ------------------
 
-If you're a designer who avoids the terminal/command line at all costs and has no interest in openning it up, then this isn't really for you. Joke. Don't worry it's like two commands, you'll be fine.
+If you're a designer who avoids the terminal/command line at all costs and has no interest in opening it up, then this isn't really for you. Joke. Don't worry it's like two commands, you'll be fine.
 
 1. Install Ruby on Rails. If you're on mac or windows just download [RailsInstaller](http://railsinstaller.org/). That does all the hard work.
 
@@ -64,7 +63,7 @@ If you're a designer who avoids the terminal/command line at all costs and has n
 3. [cd](http://ss64.com/osx/cd.html) to your directory.
 
 4. Install the SASS gem.
-	
+
 Annnnnnd, you're done. Dont forget to watch your SASS if you want to make changes.
 
 5. Run 'bundle' and hit Enter.
@@ -89,25 +88,25 @@ If you files are in a different directory you'll have to edit watch.sh according
 Using Chocolate Chip
 ------------------
 
-1. Download & Install [node.js](http://nodejs.org/download/). It's as simple as running an executalbe on windows and mac.
+1. Download & Install [node.js](http://nodejs.org/download/). It's as simple as running an executable on Windows and Mac.
 
-2. Install Grunt
+2. Install Gulp
 
-		npm install -g grunt-cli
+		npm install -g gulp
 
 3. cd into your directory and install all the dependencies
 
-		nmp install
+		npm install
 
-4. Unfortunatly you'll need two terminal/command line windows or tabs to get this going from here on
+4. Unfortunately you'll need two terminal/command line windows or tabs to get this going from here on
 
-5. In one of the windows (to watch Jekyll & SASS) run
-		
-		grunt
+5. In one of the windows (to watch Jekyll) run
+
+		jekyll serve --watch
 
 6. In the second one (to watch for CSS and JS changes) run
 
-		grunt watch
+		gulp watch
 
 7. And that should be it. Let me know if you run into any issues
 
@@ -130,4 +129,4 @@ The work is provided “as is”, without warranty or support, express or implie
 Todos
 -------
 
-* Get grunt livereload to work in chocolate chip 
+* Get gulp livereload to work in chocolate chip
