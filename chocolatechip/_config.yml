@@ -3,5 +3,4 @@ name: Your New Jekyll Site
 markdown: redcarpet
 highlighter: pygments
 paginate: 10 # pagination basted on number of posts
-exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss'] # files to exclude
-
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss', 'js/dev'] # files to exclude
