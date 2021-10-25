@@ -1,6 +1,4 @@
-# ![HTML5 Muffin](http://richbray.me/muffin/img/logo-github.png)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/RichardBray/muffin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# ![HTML5 Muffin](http://robray.dev/muffin/img/logo-github.png)
 
 
 This is a design focused front-end web development template using SASS and Jekyll.
@@ -13,7 +11,7 @@ Full site [here](http://richbray.me/muffin/)
 Different Flavours
 ------------------
 
-###Apple
+### Apple
 
 Good for single page websites.
 
@@ -25,7 +23,7 @@ Contains:
 
 
 
-###Blueberry
+### Blueberry
 
 Simple Jekyll setup for multipage site.
 
@@ -36,7 +34,7 @@ Contains:
 
 
 
-###Chocolate Chip
+### Chocolate Chip
 
 For the developer interested in a fast multipage site.
 
