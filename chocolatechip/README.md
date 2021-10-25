@@ -3,7 +3,7 @@ Chocolate Chip (Beta)
 
 I've removed the jekyll asset pipeline (because it didn't work with Jekyll 1x) and replaced it with a bunch of commands with Grunt.
 
-###What's changed?
+### What's changed?
 
 - Jekyll and SASS run together with grunt.
 
@@ -12,7 +12,7 @@ I've removed the jekyll asset pipeline (because it didn't work with Jekyll 1x) a
 - Chocolate chip supports liverealod (but it's really buggy).
 
 
-##Install
+## Install
 
 This assumes you have already installed ruby on rails (check out [railsinstaller](http://railsinstaller.org/en) if you haven't) and [node.js](http://nodejs.org/) and node package manager(npm).
 
